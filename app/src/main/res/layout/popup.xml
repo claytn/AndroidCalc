@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#060000">
+  <TextView
+      android:id ="@+id/popUp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="160sp"
+      android:text="@string/popUp"
+      android:layout_gravity="center_horizontal"
+      android:textColor="#20f41d"
+      android:textSize="30dp" />
+    <Button
+        android:id="@+id/closeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/closeButton"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
